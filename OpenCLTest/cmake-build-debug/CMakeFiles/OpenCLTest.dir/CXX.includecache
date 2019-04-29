@@ -6,3 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/Users/hoshinohitoshi/develop/Clion_Workspace/OpenCLTest/CLSample.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+math.h
+-
+OpenCL/opencl.h
+-
+Const.h
+/Users/hoshinohitoshi/develop/Clion_Workspace/OpenCLTest/Const.h
+
+/Users/hoshinohitoshi/develop/Clion_Workspace/OpenCLTest/Const.h
+
+/Users/hoshinohitoshi/develop/Clion_Workspace/OpenCLTest/LinearSample.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+math.h
+-
+Const.h
+/Users/hoshinohitoshi/develop/Clion_Workspace/OpenCLTest/Const.h
+

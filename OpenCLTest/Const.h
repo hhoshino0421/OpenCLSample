@@ -6,7 +6,7 @@
 #define OPENCLTEST_CONST_H
 
 //配列サイズ定義
-#define ARRAY_SIZE  100
+#define ARRAY_SIZE  10000
 
 //ソルト値定義
 #define SALT_DATA   32767.0

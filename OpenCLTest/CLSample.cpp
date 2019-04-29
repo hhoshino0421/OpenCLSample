@@ -7,6 +7,7 @@
 #include <time.h>
 #include <math.h>
 #include <OpenCL/opencl.h>
+//#include <CL/cl.h>
 #include "Const.h"
 
 int CLProcess() {
@@ -98,7 +99,7 @@ int CLProcess() {
     }
 
     //カーネル作成
-    kernel = clCreateKernel(program, "test", &ret);
+    kernel = clCreateKernel(program, "clexec", &ret);
     if (kernel == NULL) {
         printf("Kernel Code create error:%d\n", ret);
         return -1;
