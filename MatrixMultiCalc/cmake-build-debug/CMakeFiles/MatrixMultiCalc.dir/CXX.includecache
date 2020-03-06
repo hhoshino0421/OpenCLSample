@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMultiCalc/main.cpp
+iostream
+-
+matrixcalc.h
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMultiCalc/matrixcalc.h
+
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMultiCalc/matrixcalc.cpp
+matrixcalc.h
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMultiCalc/matrixcalc.h
+stdio.h
+-
+
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMultiCalc/matrixcalc.h
+
