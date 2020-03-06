@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hhoshino/develop/CLion_workspace/OpenCLSample/opencl_1.cpp
+stdio.h
+-
+stdlib.h
+-
+OpenCL/cl.h
+-
+
