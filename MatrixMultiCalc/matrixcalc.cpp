@@ -113,6 +113,19 @@ void execute_cacl() {
 }
 
 
+int ** matrix_calc_square(int ** a, int ** b, int length) {
+
+
+
+}
+
+int * matrix_calc_Rectangle(int * a, int * b, int height, int width) {
+
+    return matrix_cacl(a, height, width, b, height, width);
+
+}
+
+
 
 int * matrix_cacl(int * a, int al, int aw, int * b, int bl, int bw) {
 
