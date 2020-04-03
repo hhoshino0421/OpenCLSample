@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hhoshino/develop/CLion_workspace/MatrixMulti/main.cpp
+iostream
+-
+time.h
+-
+stdio.h
+-
+
