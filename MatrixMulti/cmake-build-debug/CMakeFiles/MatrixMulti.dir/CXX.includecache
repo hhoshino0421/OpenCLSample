@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/hhoshino/develop/CLion_workspace/MatrixMulti/main.cpp
-iostream
--
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/normal.cpp
 time.h
 -
 stdio.h
+-
+cstdlib
+-
+
+/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/sorted.cpp
+time.h
+-
+stdio.h
+-
+cstdlib
 -
 

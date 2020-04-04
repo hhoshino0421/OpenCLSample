@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hhoshino/develop/CLion_workspace/MatrixMulti
+# Install script for directory: /Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hhoshino/develop/CLion_workspace/MatrixMulti/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

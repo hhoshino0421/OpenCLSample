@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09069d06-ad56-415d-bfd4-77ca2d1fba3a" name="Default Changelist" comment="" />
+    <list default="true" id="c450a7d9-fa07-4796-b0d6-00b12eacdf4e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +22,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="e36yrju5" />
+    <option name="directoryName" value="sioam2vd" />
   </component>
-  <component name="ProjectId" id="1a1Jx3Z6RyVfC0ZuaOHIXvlUcWl" />
+  <component name="ProjectId" id="1a3N3eMXZ6ZZEF156jOTfu8KwH5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,7 +33,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
     <configuration name="MatrixMulti" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMulti" TARGET_NAME="MatrixMulti" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMulti" RUN_TARGET_NAME="MatrixMulti">
@@ -47,12 +46,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09069d06-ad56-415d-bfd4-77ca2d1fba3a" name="Default Changelist" comment="" />
-      <created>1585897410178</created>
+      <changelist id="c450a7d9-fa07-4796-b0d6-00b12eacdf4e" name="Default Changelist" comment="" />
+      <created>1585960119652</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585897410178</updated>
-      <workItem from="1585897412786" duration="926000" />
+      <updated>1585960119652</updated>
+      <workItem from="1585960123249" duration="2780000" />
     </task>
     <servers />
   </component>
@@ -60,21 +59,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1585903579849">
+    <state width="1358" height="308" key="GridCell.Tab.0.bottom" timestamp="1585965153142">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585903579849" />
-    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1585903579849">
+    <state width="1358" height="308" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585965153142" />
+    <state width="1358" height="308" key="GridCell.Tab.0.center" timestamp="1585965153142">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585903579849" />
-    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1585903579849">
+    <state width="1358" height="308" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585965153142" />
+    <state width="1358" height="308" key="GridCell.Tab.0.left" timestamp="1585965153142">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585903579849" />
-    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1585903579849">
+    <state width="1358" height="308" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585965153142" />
+    <state width="1358" height="308" key="GridCell.Tab.0.right" timestamp="1585965153142">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585903579849" />
+    <state width="1358" height="308" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585965153142" />
   </component>
 </project>

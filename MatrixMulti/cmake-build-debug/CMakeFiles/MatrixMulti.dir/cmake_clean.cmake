@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MatrixMulti.dir/main.cpp.o"
+  "CMakeFiles/MatrixMulti.dir/normal.cpp.o"
+  "CMakeFiles/MatrixMulti.dir/sorted.cpp.o"
   "MatrixMulti"
   "MatrixMulti.pdb"
 )

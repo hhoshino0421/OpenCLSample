@@ -3,4 +3,4 @@ project(MatrixMulti)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MatrixMulti main.cpp)
+add_executable(MatrixMulti main.cpp normal.h normal.cpp sorted.h sorted.cpp)

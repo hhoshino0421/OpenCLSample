@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hhoshino/develop/CLion_workspace/MatrixMulti
+CMAKE_SOURCE_DIR = /Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hhoshino/develop/CLion_workspace/MatrixMulti/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hhoshino/develop/CLion_workspace/MatrixMulti/cmake-build-debug/CMakeFiles /Users/hhoshino/develop/CLion_workspace/MatrixMulti/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/cmake-build-debug/CMakeFiles /Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hhoshino/develop/CLion_workspace/MatrixMulti/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hoshinohitoshi/develop/CLion_workspace/MatrixMulti/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+normal.o: normal.cpp.o
+
+.PHONY : normal.o
+
+# target to build an object file
+normal.cpp.o:
+	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/normal.cpp.o
+.PHONY : normal.cpp.o
+
+normal.i: normal.cpp.i
+
+.PHONY : normal.i
+
+# target to preprocess a source file
+normal.cpp.i:
+	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/normal.cpp.i
+.PHONY : normal.cpp.i
+
+normal.s: normal.cpp.s
+
+.PHONY : normal.s
+
+# target to generate assembly for a file
+normal.cpp.s:
+	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/normal.cpp.s
+.PHONY : normal.cpp.s
+
+sorted.o: sorted.cpp.o
+
+.PHONY : sorted.o
+
+# target to build an object file
+sorted.cpp.o:
+	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/sorted.cpp.o
+.PHONY : sorted.cpp.o
+
+sorted.i: sorted.cpp.i
+
+.PHONY : sorted.i
+
+# target to preprocess a source file
+sorted.cpp.i:
+	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/sorted.cpp.i
+.PHONY : sorted.cpp.i
+
+sorted.s: sorted.cpp.s
+
+.PHONY : sorted.s
+
+# target to generate assembly for a file
+sorted.cpp.s:
+	$(MAKE) -f CMakeFiles/MatrixMulti.dir/build.make CMakeFiles/MatrixMulti.dir/sorted.cpp.s
+.PHONY : sorted.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... normal.o"
+	@echo "... normal.i"
+	@echo "... normal.s"
+	@echo "... sorted.o"
+	@echo "... sorted.i"
+	@echo "... sorted.s"
 .PHONY : help
 
 
