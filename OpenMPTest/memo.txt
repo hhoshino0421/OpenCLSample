@@ -1,0 +1,24 @@
+インストールしたのは"libomp"だけ。
+インストール手順は、
+brew install libomp
+
+あとは、
+gccとg++を指すようにClionの設定を変更(絶対パス指定に変更)
+/usr/local/bin/gcc
+/usr/local/bin/g++
+
+CmakeLists.txtに追記
+
+2020/04/08 ビルド時に以下のエラーが発生
+Undefined symbols for architecture x86_64:
+  "_GOMP_parallel", referenced from:
+      normal_calc(int)  in normal.cpp.o
+  "_omp_get_num_threads", referenced from:
+      normal_calc(int) [clone ._omp_fn.0] in normal.cpp.o
+  "_omp_get_thread_num", referenced from:
+      normal_calc(int) [clone ._omp_fn.0] in normal.cpp.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+make[2]: *** [OpenMPTest] Error 1
+make[1]: *** [CMakeFiles/OpenMPTest.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hhoshino/develop/CLion_workspace/OpenMPTest/normal.cpp
+time.h
+-
+stdio.h
+-
+cstdlib
+-
+omp.h
+-
+
