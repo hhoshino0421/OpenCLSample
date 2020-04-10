@@ -47,7 +47,6 @@ void normal_calc(int N) {
     }
 
     clock_t calcStopTime = clock();
-
     clock_t deleteStartTime = clock();
 
     for (i = 0; i < N; i++) {

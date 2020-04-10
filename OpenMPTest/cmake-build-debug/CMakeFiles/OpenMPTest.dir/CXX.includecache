@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/hhoshino/develop/CLion_workspace/OpenMPTest/normal.cpp
-time.h
--
-stdio.h
--
-cstdlib
--
-omp.h
--
+/Users/hhoshino/develop/CLion_workspace/OpenMPTest/main.cpp
+normal.h
+/Users/hhoshino/develop/CLion_workspace/OpenMPTest/normal.h
+sorted.h
+/Users/hhoshino/develop/CLion_workspace/OpenMPTest/sorted.h
+
+/Users/hhoshino/develop/CLion_workspace/OpenMPTest/normal.h
+
+/Users/hhoshino/develop/CLion_workspace/OpenMPTest/sorted.h
 

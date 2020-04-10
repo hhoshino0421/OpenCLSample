@@ -5,7 +5,7 @@
 
 int main() {
 
-    int N = 1024;
+    int N = 2048;
 
     normal_calc(N);
 

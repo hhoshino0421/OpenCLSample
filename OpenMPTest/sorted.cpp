@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <cstdlib>
 
+#include <omp.h>
+
 void sorted_calc(int N) {
 
     int         i, j, k;
@@ -48,6 +50,7 @@ void sorted_calc(int N) {
 
     clock_t calcStartTime = clock();
 
+    //#pragma omp parallel for
     for (i = 0;i < N; i++) {
         for (j = 0; j < N; j++) {
             for (k = 0; k < N; k++) {
@@ -57,9 +60,6 @@ void sorted_calc(int N) {
     }
 
     clock_t calcStopTime = clock();
-
-    float etime = (float)(calcStopTime - calcStartTime) / CLOCKS_PER_SEC;
-
     clock_t deleteStartTime = clock();
 
     for (i = 0; i < N; i++) {

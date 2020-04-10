@@ -22,3 +22,9 @@ collect2: error: ld returned 1 exit status
 make[2]: *** [OpenMPTest] Error 1
 make[1]: *** [CMakeFiles/OpenMPTest.dir/all] Error 2
 make: *** [all] Error 2
+
+2020/04/10 以下の行を追加することでリンクができるようになった
+
+target_link_libraries(OpenMPTest ${OpenMP_CXX_LIBRARIES})
+
+
