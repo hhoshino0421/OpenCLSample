@@ -1,0 +1,115 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+collect2: error: ld returned 1 exit status
+
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76063/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_76063.dir/build.make CMakeFiles/cmTC_76063.dir/build
+Building C object CMakeFiles/cmTC_76063.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_76063.dir/CheckSymbolExists.c.o   -c /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_2' undeclared (first use in this function); did you mean 'CL_VERSION_1_2'?
+    8 |   return ((int*)(&CL_VERSION_2_2))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_2
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_76063.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_76063/fast] Error 2
+
+
+File /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19f9d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_19f9d.dir/build.make CMakeFiles/cmTC_19f9d.dir/build
+Building C object CMakeFiles/cmTC_19f9d.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_19f9d.dir/CheckSymbolExists.c.o   -c /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_1' undeclared (first use in this function); did you mean 'CL_VERSION_1_1'?
+    8 |   return ((int*)(&CL_VERSION_2_1))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_1
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_19f9d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_19f9d/fast] Error 2
+
+
+File /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13043/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_13043.dir/build.make CMakeFiles/cmTC_13043.dir/build
+Building C object CMakeFiles/cmTC_13043.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_13043.dir/CheckSymbolExists.c.o   -c /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_0' undeclared (first use in this function); did you mean 'CL_VERSION_1_0'?
+    8 |   return ((int*)(&CL_VERSION_2_0))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_0
+/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_13043.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_13043/fast] Error 2
+
+
+File /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
