@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "matrixcalc.h"
 #include <OpenCL/cl.h>
+#include <time.h>
 
 #define MAX_SOURCE_SIZE (0x100000)
 
@@ -23,7 +24,7 @@ void executeCalc() {
     cl_uint             ret_num_platforms;
     cl_int              ret;
 
-    const int   N = 1024;
+    const int   N = 10240;
     int         i, j;
 
     //データ領域宣言
@@ -96,9 +97,15 @@ void executeCalc() {
     size_t global_item_size = 4;
     size_t local_item_size = 1;
 
+    clock_t startTime = clock();
+
     /* OpenCLカーネルをデータ並列で実行 */
     ret = clEnqueueNDRangeKernel(command_queue, kernel, 1, NULL,
                                  &global_item_size, &local_item_size, 0, NULL, NULL);
+
+    clock_t stopTime = clock();
+    float etime = (float)(stopTime - startTime) / CLOCKS_PER_SEC;
+    printf("elapsed time= %15.7f sec\n", etime);
 
     /* メモリバッファから結果を取得 */
     ret = clEnqueueReadBuffer(command_queue, Cmobj, CL_TRUE, 0, 4*4*sizeof(float), c, 0, NULL, NULL);

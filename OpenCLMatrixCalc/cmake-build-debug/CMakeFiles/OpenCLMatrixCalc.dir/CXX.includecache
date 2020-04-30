@@ -6,16 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/main.cpp
-matrixcalc.h
-/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/matrixcalc.h
-
 /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/matrixcalc.cpp
 stdio.h
 -
 matrixcalc.h
 /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/matrixcalc.h
 OpenCL/cl.h
+-
+time.h
 -
 
 /Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/matrixcalc.h

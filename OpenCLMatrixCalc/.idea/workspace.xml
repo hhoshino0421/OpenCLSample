@@ -27,16 +27,23 @@
   <component name="ProjectId" id="1ac292cXIprueYcNg9t8m76qtG6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="OpenCLMatrixCalc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCLMatrixCalc" TARGET_NAME="OpenCLMatrixCalc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCLMatrixCalc" RUN_TARGET_NAME="OpenCLMatrixCalc">
+    <configuration name="OpenCLMatrixCalc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCLMatrixCalc" TARGET_NAME="OpenCLMatrixCalc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCLMatrixCalc" RUN_TARGET_NAME="OpenCLMatrixCalc">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -54,16 +61,64 @@
       <updated>1587020406108</updated>
       <workItem from="1587020407478" duration="2310000" />
       <workItem from="1587022830058" duration="1380000" />
+      <workItem from="1587779904647" duration="15000" />
+      <workItem from="1588053917144" duration="859000" />
+      <workItem from="1588056647334" duration="87000" />
+      <workItem from="1588225759040" duration="1007000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="239" y="91" key="SettingsEditor" timestamp="1587022862400">
+    <state x="202" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588225984184">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="239" y="91" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587022862400" />
+    <state x="202" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1588225984184" />
+    <state x="412" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588225808309">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="412" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1588225808309" />
+    <state x="501" y="163" key="#xdebugger.evaluate" timestamp="1588226051176">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="501" y="163" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1588226051176" />
+    <state width="1358" height="270" key="GridCell.Tab.0.bottom" timestamp="1588226768685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588226768685" />
+    <state width="1358" height="270" key="GridCell.Tab.0.center" timestamp="1588226768685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588226768685" />
+    <state width="1358" height="270" key="GridCell.Tab.0.left" timestamp="1588226768684">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588226768684" />
+    <state width="1358" height="270" key="GridCell.Tab.0.right" timestamp="1588226768685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588226768685" />
+    <state width="1358" height="270" key="GridCell.Tab.1.bottom" timestamp="1588226768686">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588226768686" />
+    <state width="1358" height="270" key="GridCell.Tab.1.center" timestamp="1588226768685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1588226768685" />
+    <state width="1358" height="270" key="GridCell.Tab.1.left" timestamp="1588226768685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1588226768685" />
+    <state width="1358" height="270" key="GridCell.Tab.1.right" timestamp="1588226768686">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1588226768686" />
+    <state x="239" y="91" key="SettingsEditor" timestamp="1588054025741">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="239" y="91" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1588054025741" />
   </component>
 </project>

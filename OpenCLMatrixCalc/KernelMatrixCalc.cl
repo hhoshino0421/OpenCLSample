@@ -1,17 +1,19 @@
-__kernel void KernelMatrixCalc(__global float* A, __global float* B, __global float* C)
-{
-    int base = 4*get_global_id(0);
-    
-    C[base+0] = A[base+0] + B[base+0];
-    C[base+1] = A[base+1] - B[base+1];
-    C[base+2] = A[base+2] * B[base+2];
-    C[base+3] = A[base+3] / B[base+3];
+__kernel void matrix_dot_matrix(
+  __global float *A,
+  __global float *B,
+  __global float *Result,
+  int wA,
+  int wB) {
+  int tx = get_global_id(0);
+  int ty = get_global_id(1);
+
+  float value = 0;
+  for (int k = 0; k < wA; ++k) {
+    float elementA = A[ty * wA + k];
+    float elementB = B[k * wB + tx];
+    value += elementA * elementB;
+  }
+
+  Result[ty * wB + tx] = value;
 }
 
-for (i = 0;i < N; i++) {
-    for (j = 0; j < N; j++) {
-        for (k = 0; k < N; k++) {
-            c[i][j] += a[i][k] * b[k][j];
-        }
-    }
-}
