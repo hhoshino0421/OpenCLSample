@@ -1,4 +1,4 @@
-__kernel void matrix_dot_matrix(
+__kernel void KernelMatrixCalc(
   __global float *A,
   __global float *B,
   __global float *Result,

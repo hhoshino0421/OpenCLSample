@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/OpenCLMatrixCalc.dir/info.cpp.o"
   "CMakeFiles/OpenCLMatrixCalc.dir/main.cpp.o"
   "CMakeFiles/OpenCLMatrixCalc.dir/matrixcalc.cpp.o"
   "OpenCLMatrixCalc"

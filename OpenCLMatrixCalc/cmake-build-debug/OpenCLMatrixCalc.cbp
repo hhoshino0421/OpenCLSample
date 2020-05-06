@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/info.cpp">
+			<Option target="OpenCLMatrixCalc"/>
+		</Unit>
+		<Unit filename="/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/info.h">
+			<Option target="OpenCLMatrixCalc"/>
+		</Unit>
 		<Unit filename="/Users/hhoshino/develop/CLion_workspace/OpenCLMatrixCalc/main.cpp">
 			<Option target="OpenCLMatrixCalc"/>
 		</Unit>

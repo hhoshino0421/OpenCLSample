@@ -123,6 +123,33 @@ OpenCLMatrixCalc/fast:
 	$(MAKE) -f CMakeFiles/OpenCLMatrixCalc.dir/build.make CMakeFiles/OpenCLMatrixCalc.dir/build
 .PHONY : OpenCLMatrixCalc/fast
 
+info.o: info.cpp.o
+
+.PHONY : info.o
+
+# target to build an object file
+info.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenCLMatrixCalc.dir/build.make CMakeFiles/OpenCLMatrixCalc.dir/info.cpp.o
+.PHONY : info.cpp.o
+
+info.i: info.cpp.i
+
+.PHONY : info.i
+
+# target to preprocess a source file
+info.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenCLMatrixCalc.dir/build.make CMakeFiles/OpenCLMatrixCalc.dir/info.cpp.i
+.PHONY : info.cpp.i
+
+info.s: info.cpp.s
+
+.PHONY : info.s
+
+# target to generate assembly for a file
+info.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenCLMatrixCalc.dir/build.make CMakeFiles/OpenCLMatrixCalc.dir/info.cpp.s
+.PHONY : info.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OpenCLMatrixCalc"
+	@echo "... info.o"
+	@echo "... info.i"
+	@echo "... info.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

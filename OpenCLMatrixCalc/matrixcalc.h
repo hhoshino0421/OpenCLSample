@@ -5,6 +5,6 @@
 #ifndef OPENCLMATRIXCALC_MATRIXCALC_H
 #define OPENCLMATRIXCALC_MATRIXCALC_H
 
-void executeCalc();
+void executeCalc(const int N);
 
 #endif //OPENCLMATRIXCALC_MATRIXCALC_H
